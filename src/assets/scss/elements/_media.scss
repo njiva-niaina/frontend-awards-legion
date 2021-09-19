@@ -1,14 +1,14 @@
 // Image responsive
-.img-responsive {
+.image-responsive {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-.img-fit-cover {
+.image-fit-cover {
   object-fit: cover;
 }
 
-.img-fit-contain {
+.image-fit-contain {
   object-fit: contain;
 }

@@ -67,16 +67,16 @@
   }
 
   // Button Colors
-  &.btn-success {
+  &.button-success {
     @include button-variant($success-color);
   }
 
-  &.btn-error {
+  &.button-error {
     @include button-variant($error-color);
   }
 
   // Button Link
-  &.btn-link {
+  &.button-link {
     background: transparent;
     border-color: transparent;
     color: $link-color;
