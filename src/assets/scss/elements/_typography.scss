@@ -47,39 +47,4 @@ p {
 a {
   text-decoration-skip: ink edges;
 }
-
-abbr[title] {
-    border-bottom: $border-width dotted;
-    cursor: help;
-    text-decoration: none;
-}
 // END SEMANTIQUE TEXT 
-
-
-// START BLOCKQUOTE
-blockquote {
-    border-left: $border-width-lg solid $border-color;
-    margin-left: 0;
-    padding: $unit-2 $unit-4;
-  
-    p:last-child {
-      margin-bottom: 0;
-    }
-}
-// END BLOCKQUOTE
-
-
-// START LISTS
-ul {
-  margin: $unit-4 0 $unit-4 $unit-4;
-  padding: 0;
-  list-style: disc inside;
-  ul {
-    margin: $unit-4 0 $unit-4 $unit-4;
-    list-style-type: circle;
-  }
-  li {
-    margin-top: $unit-2;
-  }
-}
-// END LISTS
