@@ -48,3 +48,16 @@ a {
   text-decoration-skip: ink edges;
 }
 // END SEMANTIQUE TEXT 
+
+ul {
+  margin: $unit-4 0 $unit-4 $unit-4;
+  padding: 0;
+  list-style: none;
+  ul {
+    margin: $unit-4 0 $unit-4 $unit-4;
+  }
+  li {
+    margin-top: $unit-2;
+    margin: $unit-2;
+  }
+}
