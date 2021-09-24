@@ -1,5 +1,10 @@
 // START HEADINGS
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: inherit;
   font-weight: 500;
   line-height: 1.2;
@@ -7,55 +12,141 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   font-weight: 500;
 }
 
-h1, .h1 {
-  font-size: 2rem;
+h1,
+.h1 {
+  font-size: $unit-10;
 }
 
-h2, .h2 {
-  font-size: 1.6rem;
+h2,
+.h2 {
+  font-size: $unit-8;
 }
 
-h3, .h3 {
-  font-size: 1.4rem;
+h3,
+.h3 {
+  font-size: $unit-7;
 }
 
-h4, .h4 {
-  font-size: 1.2rem;
+h4,
+.h4 {
+  font-size: $unit-6;
 }
 
-h5, .h5 {
-  font-size: 1rem;
+h5,
+.h5 {
+  font-size: $unit-5;
 }
 
-h6, .h6 {
-  font-size: .8rem;
+h6,
+.h6 {
+  font-size: $unit-4;
 }
+
+// START RESPONSIVE HEADINGS
+@media screen and (max-width: $control-width-md) {
+
+  h1,
+  .h1 {
+    font-size: $unit-9;
+  }
+
+  h2,
+  .h2 {
+    font-size: $unit-7;
+  }
+
+  h3,
+  .h3 {
+    font-size: $unit-6;
+  }
+
+  h4,
+  .h4 {
+    font-size: $unit-5;
+  }
+
+  h5,
+  .h5 {
+    font-size: $unit-4;
+  }
+
+  h6,
+  .h6 {
+    font-size: $unit-3;
+  }
+
+}
+
+@media screen and (max-width: $control-width-xs) {
+
+  h1,
+  .h1 {
+    font-size: $unit-8;
+  }
+
+  h2,
+  .h2 {
+    font-size: $unit-6;
+  }
+
+  h3,
+  .h3 {
+    font-size: $unit-5;
+  }
+
+  h4,
+  .h4 {
+    font-size: $unit-4;
+  }
+
+  h5,
+  .h5 {
+    font-size: $unit-3;
+  }
+
+  h6,
+  .h6 {
+    font-size: $unit-2;
+  }
+
+}
+
+// END RESPONSIVE HEADINGS
+
 // END HEADINGS
-
 
 // START PARAGRAPH
 p {
-    margin: 0 0 $line-height;
+  margin: 0 0 $line-height;
 }
+
 // END PARAGRAPH
 
 // START SEMANTIQUE TEXT 
 a {
   text-decoration-skip: ink edges;
 }
+
 // END SEMANTIQUE TEXT 
 
 ul {
   margin: $unit-4 0 $unit-4 $unit-4;
   padding: 0;
   list-style: none;
+
   ul {
     margin: $unit-4 0 $unit-4 $unit-4;
   }
+
   li {
     margin-top: $unit-2;
     margin: $unit-2;
