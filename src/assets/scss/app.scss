@@ -1,7 +1,29 @@
 @import '_includes';
-@import './elements/_navbar';
-@import './elements/_buttons';
+// @import './elements/_navbar';
+// @import './elements/_buttons';
 @import './elements/_media';
-@import './elements/_tables';
+// @import './elements/_tables';
 @import './elements/_typography';
-@import './components/_cards';
+// @import './components/_cards';
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  .container-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:green;
+    .container-top-middle{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .container-bottom{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
