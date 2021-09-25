@@ -172,7 +172,7 @@ gulp.task("dev", gulp.series("html", "pug", "sass", "less", "stylus", "js"));
 gulp.task("serve", () => {
   return browserSync.init({
     server: {
-      baseDir: ["dist"],
+      baseDir: ["docs"],
     },
     port: 3000,
     open: false,
