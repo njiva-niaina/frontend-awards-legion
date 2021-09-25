@@ -11,33 +11,50 @@
   display: flex;
   flex-direction: column;
   background-color: red;
+  height: 200vh;
 }
 
 .container-top{
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-color: white;
+  height: 50%;
 }
 
 .container-top-middle{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: auto;
 }
 
 .container-top-bottom{
   display: flex;
   flex-direction: row;
+  margin-top: auto;
+  background-color: blue;
+  width: 100%;
+  justify-content: center;
+}
+
+.pagination{
+  display: flex;
+  flex-direction: column;
+
 }
 
 .container-bottom{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: gray;
 }
 
 .container-bottom-middle{
   display: flex;
-
+  flex-direction: row;
 }
+
+

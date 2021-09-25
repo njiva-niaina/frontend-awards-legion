@@ -2,6 +2,7 @@ extends templates/_default
 
 block content
     div.container
+      //- TOP
       div.container-top
         div.container-top-middle
           span THE
@@ -13,17 +14,19 @@ block content
           div.pagination
             span 01/03
             div.progress
+      //- BOTTOM
       div.container-bottom
-        div.container-bottom-middle
-          div.container-bottom-left
-            div.container-bottom-middle
-              div.left
-                h3  MOVIE-INSPIRED
-                h2 TYPOGRAPHY
-                span Masterly animated captions allure your viewer with modern motion dsign and introduce a true filmic atmosphere in your edits
-              div.right
-                img(src="./assets/images/", alt="sample.jpg")
 
+        //- MIDDLE
+        div.container-bottom-middle
+
+          //- MIDDLE LEFT
+          div.container-bottom-left
+            h3  MOVIE-INSPIRED
+            h2 TYPOGRAPHY
+            span Masterly animated captions allure your viewer with modern motion dsign and introduce a true filmic atmosphere in your edits
+
+          //- MIDDLE RIGHT
           div.container-bottom-right
             div.container-bottom-nav
               ul
@@ -31,6 +34,7 @@ block content
                   span WATCH TUTORIAL
                 li
                   span WATCH TRAILER
+        //- BOTTOM
         div.container-bottom-bottom
           span.previous PREV
-          spqn.next NEXT
+          span.next NEXT
