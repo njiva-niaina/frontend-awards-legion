@@ -8,8 +8,10 @@ h6 {
   color: inherit;
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: .5em;
+  margin-bottom: -1px;
   margin-top: 0;
+  font-family: 'Six Caps', sans-serif;
+  letter-spacing: 9px;
 }
 
 .h1,
@@ -23,7 +25,7 @@ h6 {
 
 h1,
 .h1 {
-  font-size: $unit-10;
+  font-size: $unit-12 * 1.8;
 }
 
 h2,
@@ -131,12 +133,12 @@ p {
 
 // END PARAGRAPH
 
-// START SEMANTIQUE TEXT 
+// START SEMANTIQUE TEXT
 a {
   text-decoration-skip: ink edges;
 }
 
-// END SEMANTIQUE TEXT 
+// END SEMANTIQUE TEXT
 
 ul {
   margin: $unit-4 0 $unit-4 $unit-4;
@@ -151,4 +153,16 @@ ul {
     margin-top: $unit-2;
     margin: $unit-2;
   }
+}
+
+
+span{
+  font-family: 'Abel', sans-serif;
+  letter-spacing:9px;
+  font-size:11px;
+}
+
+span.auto{
+  letter-spacing:0;
+  margin-top: 5px;
 }

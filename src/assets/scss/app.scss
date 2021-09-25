@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import '_includes';
 // @import './elements/_navbar';
 // @import './elements/_buttons';
@@ -10,17 +12,17 @@
 .container{
   display: flex;
   flex-direction: column;
-  background-color: red;
   height: 200vh;
+  color: #ffffffff;
 }
 
 .container-top{
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  height: 50%;
+  background-image: url("../images/header_bg_1.jpg");
 }
 
 .container-top-middle{
@@ -34,7 +36,6 @@
   display: flex;
   flex-direction: row;
   margin-top: auto;
-  background-color: blue;
   width: 100%;
   justify-content: center;
 }
@@ -50,8 +51,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
-
+  background-color: #000000;
 }
 
 .container-bottom-middle{
@@ -59,36 +59,31 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color:white;
 }
 
 .container-bottom-left{
   width:50%;
   display: flex;
   flex-direction: column;
-  background-color:green;
 }
 
 .container-bottom-left-top{
-  // width: 50%;
-  // text-align: center;
   margin-right: auto;
   margin-left: auto;
-  background-color:white;
 }
 
 .container-bottom-left-middle{
   width: 40%;
   margin-left:auto;
   // text-align: right;
-  background-color:yellow;
 }
+
+
 
 .container-bottom-right{
   width:50%;
   display: flex;
   flex-direction: column;
-  background-color:red;
 }
 
 .container-bottom-nav ul{
@@ -102,5 +97,4 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: blue;
 }
